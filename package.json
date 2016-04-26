@@ -1,6 +1,6 @@
 {
   "name": "clon",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0",
   "description": "Fast-clones an object using `JSON.parse(JSON.stringify(obj))`",
   "main": "index.js",
   "scripts": {
