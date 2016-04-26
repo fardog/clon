@@ -1,0 +1,29 @@
+{
+  "name": "clon",
+  "version": "1.0.0-alpha.1",
+  "description": "Fast clones an object using `JSON.parse(JSON.strinfigy(obj))`",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js && npm run lint",
+    "lint": "standard *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fardog/clon.git"
+  },
+  "keywords": [
+    "clone",
+    "object",
+    "json"
+  ],
+  "author": "Nathan Wittstock <nate@fardog.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fardog/clon/issues"
+  },
+  "homepage": "https://github.com/fardog/clon#readme",
+  "devDependencies": {
+    "standard": "^6.0.8",
+    "tape": "^4.5.1"
+  }
+}
