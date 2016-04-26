@@ -1,7 +1,7 @@
 {
   "name": "clon",
   "version": "1.0.0-alpha.1",
-  "description": "Fast clones an object using `JSON.parse(JSON.strinfigy(obj))`",
+  "description": "Fast-clones an object using `JSON.parse(JSON.stringify(obj))`",
   "main": "index.js",
   "scripts": {
     "test": "tape test.js && npm run lint",
